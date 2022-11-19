@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100,2000,300,400,500,600,700,800,900;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-image: url(/img/20220815_103845.jpg);
+    background-repeat: no-repeat;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+/*=================Nav================*/
+
+.nav-item, .nav-item{
+    letter-spacing: 1.5px;
+}
+
+.imgBx img{
+    border-radius: 70px;
+}
+/*================home=============*/
+
+#home span{
+    color: #ff004f;
+}
+
+#home, .imgBx{
+    margin-bottom: 40px;
+}
+
+/*=======================About==========*/
+
+#about h2{
+    font-size: 50px;
+}
+#about a{
+    color: #000;
+}
+
+#about img{
+    width: 100%; 
+
+}
+
+/*======================Button===========*/
+
+
+.main-btn{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 2.875rem;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 1.3125rem;
+    border: double 0.125rem;
+    background: linear-gradient(-130deg,  #c850c0, #4158d0);
+    padding: 0 1.62rem;
+    transition: all .3s ease-in-out;
+}
+
+.primary-btn:hover{
+    transform: translateY(-5px);
+}
+
+#education{
+    background: #023b6d;
+}
+
+
+
+/*================Contact Social icons==================*/
+
+#contact{
+    background: #20c997;
+}
+
+.title{
+    margin-top: 15px;
+}
+.contact-left p i{
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 15px;
+    color: #6610f2;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.contact-left p i:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #6610f2;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+#contact .main-btn{
+    margin-bottom: 5px;
+}
+
+#msg{
+    color: #6610f2;
+    display: block;
+}
+
+/*---------------------------------------------bootstrap-color code----------------*/
+
+:root {
+    --bg-blue: #0d6efd;
+    --bg-indigo: #6610f2;
+    --bg-purple: #6f42c1;
+    --bg-pink: #d63384;
+    --bg-red: #dc3545;
+    --bg-orange: #fd7e14;
+    --bg-yellow: #ffc107;
+    --bg-green: #198754;
+    --bg-teal: #20c997;
+    --bg-cyan: #0dcaf0;
+    --bg-white: #fff;
+    --bg-gray: #6c757d;
+    --bg-gray-dark: #343a40;
+    --bg-primary: #0d6efd;
+    --bg-secondary: #6c757d;
+    --bg-success: #198754;
+    --bg-info: #0dcaf0;
+    --bg-warning: #ffc107;
+    --bg-danger: #dc3545;
+    --bg-light: #f8f9fa;
+    --bg-dark: #212529;
+    --bg-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bg-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --primary-color:#4458dc;
+    --secondary-color: #854fee;
+    --bg-white:#fff;
+    --bg-light:#faf8ff;
+    --bg-black:#000;
+    --bg-gray: #eee;
+    --secondary-color:#4458dc;
+    --primary-color:var(--bg-green);
+    --bg-gradient: linear-gradient(to right, #4458dc 0%, #854fee  100%), radial-gradient(circle at top left, #4458dc, #854fee);
+
+    /*----TEXT COLOR--------*/
+    --primary-text: #4458dc;
+    --secondary-text: #854fee;
+    --text-white: #fff;
+    --text-black: #000;
+    --text-gray: #777;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
